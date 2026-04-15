@@ -2,9 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UltraBook Pro 14 - Electronic Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../home.html">Electronic Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../cart.html">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <div class="header-section">
+        <h1>UltraBook Pro 14</h1>
+        <p>Lightweight performance for work, travel, and everyday use.</p>
+    </div>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="../images/product_laptop1.webp" class="product-image rounded" alt="UltraBook Pro 14">
+            </div>
+            <div class="col-md-6">
+                <h2 class="product-title">UltraBook Pro 14</h2>
+                <p class="product-price">$1,199.99</p>
+                <h5 class="product-section-title">Product Description</h5>
+                <p class="product-description">
+                    The UltraBook Pro 14 delivers powerful performance in a thin body, featuring a 14-inch high-resolution display, long battery life, and fast storage. Ideal for professionals who need productivity without compromise.
+                </p>
+                <h5 class="product-section-title">Key Features</h5>
+                <ul class="product-features">
+                    <li>14" IPS display with 300 nits brightness</li>
+                    <li>Intel Core i7 processor</li>
+                    <li>16GB RAM and 512GB SSD</li>
+                    <li>Thunderbolt 4 connectivity</li>
+                    <li>Up to 12 hours battery life</li>
+                </ul>
+                <div class="rating-section">
+                    <label class="rating-label">⭐ Product Rating:</label>
+                    <select class="rating-select">
+                        <option value="">Select a rating...</option>
+                        <option value="5">⭐⭐⭐⭐⭐ Excellent </option>
+                        <option value="4">⭐⭐⭐⭐ Very Good </option>
+                        <option value="3">⭐⭐⭐ Good </option>
+                        <option value="2">⭐⭐ Fair </option>
+                        <option value="1">⭐ Poor </option>
+                    </select>
+                </div>
+                <div class="review-section">
+                    <label class="review-label"> Write a Review:</label>
+                    <textarea class="review-input" placeholder="Share your experience with this product..."></textarea>
+                </div>
+                <div class="action-buttons">
+                    <a href="../categories/laptop.html" class="btn btn-outline-light">← Back to Laptops</a>
+                    <button class="btn btn-warning">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

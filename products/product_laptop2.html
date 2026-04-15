@@ -2,9 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Notebook V - Electronic Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../home.html">Electronic Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../cart.html">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <div class="header-section">
+        <h1>Gaming Notebook V</h1>
+        <p>High-performance laptop built for gamers and creators.</p>
+    </div>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="../images/product_laptop2.webp" class="product-image rounded" alt="Gaming Notebook V">
+            </div>
+            <div class="col-md-6">
+                <h2 class="product-title">Gaming Notebook V</h2>
+                <p class="product-price">$1,349.99</p>
+                <h5 class="product-section-title">Product Description</h5>
+                <p class="product-description">
+                    The Gaming Notebook V offers a powerful graphics engine, fast refresh-rate display, and advanced cooling system for a premium gaming experience.
+                </p>
+                <h5 class="product-section-title">Key Features</h5>
+                <ul class="product-features">
+                    <li>15.6" FHD display with 165Hz refresh</li>
+                    <li>NVIDIA GeForce RTX 3060</li>
+                    <li>16GB RAM and 1TB SSD</li>
+                    <li>RGB backlit keyboard</li>
+                    <li>Dual-fan cooling system</li>
+                </ul>
+                <div class="rating-section">
+                    <label class="rating-label">⭐ Product Rating:</label>
+                    <select class="rating-select">
+                        <option value="">Select a rating...</option>
+                        <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+                        <option value="4">⭐⭐⭐⭐ Very Good</option>
+                        <option value="3">⭐⭐⭐ Good</option>
+                        <option value="2">⭐⭐ Fair</option>
+                        <option value="1">⭐ Poor</option>
+                    </select>
+                </div>
+                <div class="review-section">
+                    <label class="review-label"> Write a Review:</label>
+                    <textarea class="review-input" placeholder="Share your experience with this product..."></textarea>
+                </div>
+                <div class="action-buttons">
+                    <a href="../categories/laptop.html" class="btn btn-outline-light">← Back to Laptops</a>
+                    <button class="btn btn-warning">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
